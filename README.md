@@ -13,7 +13,7 @@ See Polygon_ROI_Guide_PTOA.pdf for tips on creating the polygon ROI. See musc_th
 
 See comments in musc_thresh_ptoa.m for more information.
 
-Notes on the use of the program:
+Notes on the use of the program.
 
     This program is for the PTOA study. The directory structure must include subdirectories for each visit (PTOA * MRI Files, where * is the visit name [Baseline, Y1, or Y2]). The directory structure is used to identify the visit of the MRI images.
 
