@@ -13,12 +13,12 @@ See Polygon_ROI_Guide_PTOA.pdf for tips on creating the polygon ROI. See musc_th
 
 See comments in musc_thresh_ptoa.m for more information.
 
-Notes on the use of the program.
+Notes on the use of the program:
 
-    This program is for the PTOA study. The directory structure must include subdirectories for each visit (PTOA * MRI Files, where * is the visit name [Baseline, Y1, or Y2]). The directory structure is used to identify the visit of the MRI images.
+This program is for the PTOA study. The directory structure must include subdirectories for each visit (PTOA * MRI Files, where * is the visit name [Baseline, Y1, or Y2]). The directory structure is used to identify the visit of the MRI images.
 
-    M-file function roi_mov.m must be in the current path or directory. I recommend putting both musc_thresh-ptoa.m and roi.mov.m in the same directory.
+M-file function roi_mov.m must be in the current path or directory. I recommend putting both musc_thresh-ptoa.m and roi.mov.m in the same directory.
 
-    The output MS-Excel spreadsheet, mthresh_ptoa_*.xlsx, can NOT be open in another program (e.g. MS-Excel) while using this program.
+The output MS-Excel spreadsheet, mthresh_ptoa_*.xlsx, can NOT be open in another program (e.g. MS-Excel) while using this program.
 
-    Running the program for the same MRI image will result in duplicate data for that image in the spreadsheet. The spreadsheet should be checked for any duplicate data before any statistical analyzes.
+Running the program for the same MRI image will result in duplicate data for that image in the spreadsheet. The spreadsheet should be checked for any duplicate data before any statistical analyzes.
